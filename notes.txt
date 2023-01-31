@@ -1,0 +1,64 @@
+1.Header and footer
+2.Hero component
+
+api call in js Ajax asynchronus javascript (fetch,xmlHttps)
+---------------
+asyn and await
+
+
+redirction
+-----------
+react-router-dom
+
+npm i react-router dom
+
+BrowserRouter - all routing needs router
+
+Routes - to set path for each component
+
+Route - more one path
+
+
+Hook for parmas.id
+---------------------
+useParams - hook used to access params froms component Url
+
+
+Redux
+-------
+Coupling - Mini connection between parent and child component
+
+props Drilling - in coupling if any intermediate component have any errors all other childs will not work
+
+- to avoid props Drilling we need to reduce coupling and make all the components independent
+
+for this react indroduced a new technology - state management technology = REDUX
+
+Redux process
+--------------
+- create a new js file to keep states, all the components can acess the file
+
+- the component can access the js file but they can't update datas in the file
+
+- Reuducer: update the datas in data.js file according to the payload response get the action file
+
+
+Libraries Used for Redux
+----------------------------
+- Redux
+- React Redux
+- Redux Thunk
+
+create Store() - Method used to create store in js file
+               - 2 arguments 1. reducer 2. middleware=(used to make synchronous redux into asynchrounous)
+
+applyMiddleware() - Method in Redux to apply middleware
+
+compineReducers() - Method in Redux used to combine all the reducers in js file 
+
+thunk - in REDUX-THUNK used to create Middlware
+
+1.create store
+2.apply the store in index.js
+
+  -provider its a tag used to pass the store(redux)
